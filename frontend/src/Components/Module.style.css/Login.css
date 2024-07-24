@@ -1,0 +1,154 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-image: url('../src/assets/Back.jpg') no-repeat center center fixed;
+    background-size: cover;
+  
+  }
+  
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    background-color:rgba(255, 255, 255, 0.863);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    border-radius: 10px;
+    width: 300px;
+  }
+  
+  .heading {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #404064;
+  }
+  
+  .input-container {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  .input-container label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    margin-right: 200px;
+  
+    
+  }
+  
+  .input-icon {
+    display: flex;
+    align-items: center;
+    
+    
+  }
+  
+  .input-icon input {
+    width: 100%;
+    padding: 10px;
+    padding-left: 35px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .input-icon svg {
+    position: absolute;
+    margin-left: 10px;
+    color: #666;
+  }
+  
+  .remember-me-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .remember-me-container input {
+    margin-right: 10px;
+  }
+  
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .login-button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+  }
+  
+  .login-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .forgot-password {
+    margin-top: 10px;
+    color: #007bff;
+    cursor: pointer;
+  }
+  
+  .signup-container {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .signup-container a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .signup-container a:hover {
+    text-decoration: underline;
+  }
+  
+  .input-icon {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .input-icon input {
+    width: 100%;
+    padding: 10px;
+    padding-left: 35px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .input-icon svg {
+    position: absolute;
+    left: 10px;
+    color: #666;
+  }
+  
+  .toggle-password {
+    
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    cursor: pointer;
+    transform: translateY(-50%);
+    color: #666;
+    
+  }
